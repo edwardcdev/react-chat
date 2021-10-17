@@ -1,6 +1,6 @@
-# Chatting App
+# Chat App
 
-A web application that allows users to send message to friends, team and family. This is built by React.js and Node.js.
+## Specification
 
 Backend:
 
@@ -12,40 +12,23 @@ Backend:
 Frontend:
 
 * React.js
+* Create React App
 * Redux (Router, Thunk)
 * Scss
 * Webpack
 
-## Prerequisites
-
-You will need the following resources properly installed on the machine.
-
-* [Git](https://git-scm.com)
-* [Node.js](https://nodejs.org) (with NPM)
-* [MongoDB](https://www.mongodb.com)
-
-## Getting Started
+## Running
 
 ```bash
 # Install the dependencies.
 $ cd .
 $ npm install
-
-# You need to install the dependencies for frontend.
 $ cd ./client
 $ npm install
-```
 
-### Run the App
-
-```bash
-$ cd .
+# Run app on root director
 $ npm run dev
 ```
-
-By default, you can visit the API in your web browser at `http://localhost:5000`
-
-And you can access the frontend by visiting [http://localhost:3000](http://localhost:3000)
 
 ## Screenshots
 
@@ -57,9 +40,5 @@ And you can access the frontend by visiting [http://localhost:3000](http://local
 
 ### Main Chat
 ![image](https://user-images.githubusercontent.com/17595822/38169216-1c0e0e4a-356d-11e8-84e6-c4586acbd71e.png)
-
-## References
-
-* [create-react-app](https://github.com/facebookincubator/create-react-app)
 
 ...
