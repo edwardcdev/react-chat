@@ -1,0 +1,67 @@
+{
+  "name": "chatting-app",
+  "version": "0.0.1",
+  "description": "Simple chatting app built by Node.js, React.js, Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "nodemon ./index.js --exec \"node -r dotenv/config\"",
+    "dev:client": "cd client && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seniordev555/chatting-app.git"
+  },
+  "keywords": [
+    "node",
+    "socket",
+    "mongodb",
+    "express",
+    "chat"
+  ],
+  "author": "seniordev555",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seniordev555/chatting-app/issues"
+  },
+  "homepage": "https://github.com/seniordev555/chatting-app#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "concurrently": "^3.5.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "cross-env": "^5.1.4",
+    "crypto": "^1.0.1",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-validation": "^1.0.2",
+    "faker": "^4.1.0",
+    "helmet": "^3.12.0",
+    "http-status": "^1.0.1",
+    "joi": "^13.1.2",
+    "jsonwebtoken": "^8.2.0",
+    "lodash": "^4.17.5",
+    "method-override": "^2.3.10",
+    "moment": "^2.21.0",
+    "moment-timezone": "^0.5.14",
+    "mongoose": "^5.0.11",
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.6.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "slug": "^0.9.1",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "nodemon": "^1.17.2",
+    "rimraf": "^2.6.2"
+  }
+}
